@@ -174,13 +174,13 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/Example",
+					url: "https://github.com/cloud-oc",
 					external: true,
 					icon: "fa6-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/Example",
+					url: "https://space.bilibili.com/350267607",
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
