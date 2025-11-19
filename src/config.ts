@@ -27,8 +27,8 @@ const SITE_TIMEZONE = 8; // from -12 to 12 default in UTC+8
 
 export const siteConfig: SiteConfig = {
 	siteURL: "https://3b72be50.twilight-45e.pages.dev/", // 请替换为你的站点 URL 并以斜杠结尾
-	title: "Twilight",
-	subtitle: "Blog Template",
+	title: "Cloud09's Blog",
+	subtitle: "写作即自由",
 
 	lang: SITE_LANG, // 自动检测的浏览器语言
 	translate: {
@@ -43,10 +43,10 @@ export const siteConfig: SiteConfig = {
 	// 时区配置
 	timeZone: SITE_TIMEZONE,
 	themeColor: {
-		hue: 255, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		hue: 185, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
-    defaultTheme: "dark", // "system" 跟随系统， "light" 浅色， "dark" 深色
+    defaultTheme: "system", // "system" 跟随系统， "light" 浅色， "dark" 深色
 
 	// 壁纸配置：支持 fullscreen（全屏壁纸）、banner（横幅壁纸）、none（纯色背景）三种模式
 	wallpaper: {
@@ -73,8 +73,8 @@ export const siteConfig: SiteConfig = {
 
 		// PicFlow API 支持（智能图片API，fullscreen 和 banner 模式共享）
 		imageApi: {
-			enable: false, // 启用图片API
-			url: "http://domain.com/api_v2.php?format=text&count=4", // API地址，返回每行一个图片链接的文本
+			enable: true, // 启用图片API
+			url: "https://moe.jitsu.top/img/?sort=pc", // API地址，返回每行一个图片链接的文本
 		},
 		// 这里需要使用PicFlow API的Text返回类型,所以我们需要format=text参数
 		// 项目地址:https://github.com/matsuzaka-yuki/PicFlow-API
@@ -84,9 +84,9 @@ export const siteConfig: SiteConfig = {
 		banner: {
 			homeText: {
 				enable: true, // 在主页显示自定义文本
-				title: "Twilight", // 主页横幅主标题
+				title: "Cloud09's Blog", // 主页横幅主标题
 				subtitle: [
-					"Illuminate Our Paths",
+					"写作即自由",
 				],
 				typewriter: {
 					enable: true, // 启用副标题打字机效果
